@@ -14,6 +14,7 @@
 **/node_modules/
 **/dist/
 **/target/
+**/oracleJdk-26.jdk/
 
 # Local macOS and editor files
 .DS_Store
