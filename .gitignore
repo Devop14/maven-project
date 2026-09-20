@@ -1,0 +1,22 @@
+# Terraform state, plans, and local working directories
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfplan
+**/tfplan
+
+# Local Terraform secrets and variable overrides
+**/*.tfvars
+!infra/tf-modules/environments/*/terraform.tfvars
+**/*.tfvars.json
+
+# JavaScript and Java build output
+**/node_modules/
+**/dist/
+**/target/
+
+# Local macOS and editor files
+.DS_Store
+**/.DS_Store
+**/*.swp
+**/*.swo
